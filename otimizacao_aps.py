@@ -3,6 +3,10 @@ import matplotlib.pyplot as plt
 import datetime
 import numpy as np
 
+#<!-- Disciplina: Otimização de de sistemas -->
+#<!-- Turma:  962-94349 -->
+#<!-- Grupo:  Adriel Val (2020100947) / Lukas Camelo (2018100617)-->
+
 def fetch_stock_data(tickers, start_date, end_date):
     data = {}
     for ticker in tickers:
